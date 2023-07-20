@@ -1,0 +1,245 @@
+/****************************************
+*                                       *
+*           UNIVERSAL STYLES            *
+*                                       *
+****************************************/
+html {
+    font-family: 'Victor Mono', monospace;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(../resources/images/background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.center {
+    text-align: center;
+}
+
+.header-container {
+    display: flex;
+    justify-content: center;
+    width: auto;
+    margin: 0;
+}
+
+/****************************************
+*                                       *
+*                HEADER                 *
+*                                       *
+****************************************/
+.logo {
+    height: 13rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+#navigation nav ul li a {
+    display: inline-flex;
+    font-weight: bold;
+    font-size: 1.75rem;
+    color: white;
+    text-decoration: none;
+}
+
+#navigation nav ul {
+    padding: 0;
+    margin: 0;
+}
+
+#navigation ul li {
+    display: inline-flex;
+    padding: .25rem 1rem .25rem 1rem;
+    margin: .75rem 7rem 1.25rem 7rem;
+    background-color: #3232ff;
+    border: .2rem solid darkblue;
+    border-radius: 1.25rem;
+    
+}
+
+/****************************************
+*                                       *
+*           MISSION STATEMENT           *
+*                                       *
+****************************************/
+#mission-statement {
+    display: flex;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    height: 50.125rem;
+    background-image: url(../resources/images/tails-working.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-self: center;
+    border: .5rem solid darkblue;
+    border-radius: 25% 25%;
+}
+
+.mission-box {
+    display: block;
+    position: absolute;
+    background-color: white;
+    height: 25rem;
+    width: 20rem;
+    border: .25rem solid gray;
+    -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    top: 32rem;
+    left: 10rem;
+}
+
+.mission-text {
+    text-align: center;
+    margin-top: 5.25rem;
+}
+
+.mission-header-text {
+    font-size: 2rem;
+}
+
+.mission-sub-text {
+    margin: 0 2rem 0 2rem;
+    font-size: 1.2rem;
+}
+
+/****************************************
+*                                       *
+*               PRODUCTS                *
+*                                       *
+****************************************/
+#products-section {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 2rem 2rem 5rem 2rem;
+    justify-content: center;
+    
+}
+
+
+#product-header .text {
+    display: flex;
+    color: white;
+    font-size: 3rem;
+    padding: .25rem 1rem .5rem 1rem;
+    background-color:goldenrod;
+    border: .5rem solid darkgoldenrod;
+    border-radius: 5rem;
+}
+
+.product {
+    display: inline-flex;
+    height: 15rem;
+    width: auto;
+    background-color: white;
+    border: .5rem solid darkblue;
+    border-radius: 1.5rem;
+}
+
+.product-card {
+    display: flex;
+    margin: 0 4rem 0 4rem;
+}
+
+.product-name {
+    padding: .5rem 1rem;
+    margin-top: 1.5rem;
+    color: white;
+    background-color: #3232ff;
+    border: .25rem solid darkblue;
+    border-radius: 1rem;
+}
+
+/****************************************
+*                                       *
+*             TEAM MEMBERS              *
+*                                       *
+****************************************/
+.header-text {
+    display: flex;
+    color: white;
+    font-size: 3rem;
+    padding: .25rem 1rem .5rem 1rem;
+    background-color:goldenrod;
+    border: .5rem solid darkgoldenrod;
+    border-radius: 5rem;
+}
+
+#team-container {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+}
+
+#team-container .center {
+    margin-bottom: 5rem;
+}
+
+.team-member {
+    display: flex;
+    justify-content: space-around;
+    height: 45.6875rem;
+    width: 45.6875rem;
+}
+
+.team-member-name {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    font-size: 2.5rem;
+    color: white;
+    background-color: #3232ff;
+    border: .5rem solid darkblue;
+    border-radius: 1rem;
+}
+
+.team-description {
+    background-color: white;
+    color: black;
+    font-size: 1.5rem;
+    width: 45.6875rem;
+    text-align: center;
+    border: .5rem solid darkblue;
+    border-radius: 1rem;
+}
+
+/****************************************
+*                                       *
+*                FOOTER                 *
+*                                       *
+****************************************/
+#contact-info {
+    margin: 0 2rem 5rem 2rem;
+    color: white;
+    font-size: 1rem;
+}
+
+.copyright {
+    background-color: darkblue;
+    color: white;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-radius: 2rem 2rem 0 0;
+}
+
+.copyright h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+footer {
+    width: 100%;
+    
+}
